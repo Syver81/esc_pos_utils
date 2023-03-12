@@ -147,7 +147,7 @@ class Generator {
     // Create a black bottom layer
     final Image biggerImage =
         copyResize(image, width: widthPx, height: heightPx);
-    fill(biggerImage, color: ColorFloat16.rgba(0, 0, 0, 0));
+    fill(biggerImage, color: ColorFloat16.rgba(0, 0, 0, 1));
     // Insert source image into bigger one
     compositeImage(biggerImage, image, dstX: 0, dstY: 0);
 
